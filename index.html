@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/all.css">
+        <link rel="stylesheet" href="css/Style.css">
+    </head>
+    <body>
+        <div class="container-fluid">
+
+
+
+          <div class="header">
+            <nav class="navbar navbar-expand-md  navbar-dark">
+                <!-- Brand -->
+                <a class="navbar-brand" href="#"><img src="Images/images/logo2.png" alt="" style="width: 80px;" class="logo"></a>
+                <a class="navbar-brand name text-info" href="#">Good</a>
+            
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                <div class="header-content container-fluid">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#">Link</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-info" href="#" id="navbardrop" data-toggle="dropdown">
+                        Trips
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item text-info" href="#ev">Cairo</a>
+                        <a class="dropdown-item text-info" href="#ht">Alex</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item text-info" href="#ne">Luxor</a>
+                        <a class="dropdown-item text-info" href="#ct">Aswan</a>
+                        <a class="dropdown-item text-info" href="#crw">Siwa</a>
+                        <a class="dropdown-item text-info" href="#crt">El Galala</a>
+                    </div>
+                    </li>
+                <li class="nav-item">
+                    <a class="nav-link text-info" href="#">About</a>
+                </li>
+                </ul>
+                <form class="form-inline" >
+                    <input class="form-control mr-sm-2" type="text" placeholder="Search">
+                    <button class="btn btn-info" type="button">Search</button>
+                    <button class="btn btn-info" type="button" data-toggle="modal" data-target="#myModal2" data-backdrop="false">LogIn</button>
+                    <!-- <div class="header-modal"> -->
+                        <div class="modal fade" id="myModal2">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header bg-info">
+                                    <h4 class="text-white">LogIn</h4>
+                                    <button type="button" class="close text-white" data-dismiss="modal">&times;</button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label class="text-info">Email address</label><br>
+                                            <input type="text">
+                                        </div>
+    
+                                        <div class="form-group">
+                                            <label class="text-info">password</label><br>
+                                            <input type="password">
+                                        </div>
+    
+                                        <div class="custom-control custom-switch">
+                                            <input type="checkbox" class="custom-control-input" id="switch1">
+                                            <label class="custom-control-label text-info" for="switch1">Remember Me</label>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                <button type="button" class="btn text-white bg-info" data-dismiss="modal">LogIn</button>
+                                <button type="button" class="btn text-white bg-info" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    <!-- </div>end of header modal -->
+                </form>
+            </div>
+            </div>
+            </nav>
+        </div><!--end of header section-->
+
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    <li data-target="#demo" data-slide-to="3"></li>
+    <li data-target="#demo" data-slide-to="4"></li>
+    <li data-target="#demo" data-slide-to="5"></li>
+  </ul>
+
+  <!-- The slideshow -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="Images/images/cairo/img1.jpg" alt="Cairo" width="100%" height="650px">
+    <div class="carousel-caption">
+      <h2>CAIRO</h2>
+      <p>We had such a great time in Egypt</p>
+      <button type="submit" class="btn btn-info">Visit us</button>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/images/alex/IMG-20230227-WA0035.jpg" alt="Alex" width="100%" height="650px">
+    <div class="carousel-caption">
+      <h2>ALEXANDRIA</h2>
+      <p>Our Mermaid city</p>
+      <button type="submit" class="btn btn-info">Visit us</button>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/images/aswan/img5.jpg" alt="Aswan" width="100%" height="650px">
+    <div class="carousel-caption">
+      <h2>ASWAN</h2>
+      <p>Thank you, Aswan!</p>
+      <button type="submit" class="btn btn-info">Visit us</button>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/images/luxur/img6.jpg" alt="Luxor" width="100%" height="650px">
+    <div class="carousel-caption">
+      <h2>LUXOR</h2>
+      <p>Come and see 33% of world's antiquities</p>
+      <button type="submit" class="btn btn-info">Visit us</button>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/images/galalh/IMG-20230227-WA0040.jpg" alt="Galala" width="100%" height="650px">
+     <div class="carousel-caption">
+      <h2>El GALALA</h2>
+      <p>The best view at the red sea</p>
+      <button type="submit" class="btn btn-info">Visit us</button>
+  </div>
+    </div>
+    <div class="carousel-item">
+      <img src="Images/images/sharm/IMG-20230227-WA0036.jpg" alt="Sharm" width="100%" height="650px">
+  <div class="carousel-caption">
+      <h2>SHARM EL SHEIKH</h2>
+      <p>We love this city!</p>
+      <button type="submit" class="btn btn-info">Visit us</button>
+  </div>
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+
+</div>
+
+<!-- A vertical navbar -->
+<nav class="navbar bg-trans fixed-top sec1-h2">
+
+  <!-- Links -->
+  <ul class="navbar-nav">
+    <li class="nav-item">
+      <a class="nav-link s1-i" href="#"><i class="fab fa-facebook-square"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link s1-i" href="#"><i class="fab fa-whatsapp-square"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link s1-i" href="#"><i class="fab fa-linkedin"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link s1-i" href="#"><i class="fab fa-twitter-square"></i></a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link s1-i" href="#"><i class="fab fa-instagram-square"></i></a>
+    </li>
+  </ul>
+</nav>
+        </div> <!-- container-fluid -->
+
+
+
+
+
+        <div class="container-fluid sec2">
+          <h2 class="s2-h2">WELCOME</h2>
+          <p class="s2-p">Are you planning to visit Egypt? We offer the ultimat tour in Egypt, Covering from Alex to Aswan, From a one day trip to 10 days dream vacation, we will take care of all ur needs with 24/7 customer service</p>
+          <button class="s2-b">Learn More</button>
+        </div> <!-- container-fluid -->
+
+        <hr>
+
+        <div class="container-fluid sec3">
+          <h1 class="s3-h1">Populer destinations in Egypt</h1>
+
+          <div id="accordion">
+
+            <div class="card cardddd">
+              <div class="card-header">
+                <a class="card-link" data-toggle="collapse" href="#collapseOne">GIZA CITY</a>
+              </div>
+              <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">Major tourist distination include the millennia-old monuments in the Nile valley, Principal among them are the Pyramids and Great Sphinx at Giza </div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">LUXOR CITY</a>
+              </div>
+              <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil porro aspernatur nisi, ut minus vel tempora. Illum, voluptatibus similique natus deleniti blanditiis nostrum alias animi voluptates, consequatur consequuntur aspernatur magni.</div>
+              </div>
+            </div>
+          
+            <div class="card">
+              <div class="card-header">
+                <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">SINAI PENINSULA</a>
+              </div>
+              <div id="collapseThree" class="collapse" data-parent="#accordion">
+                <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, sit! Cumque deserunt, eaque adipisci tenetur porro quos. Eveniet, tempora nisi. Atque nemo iure quisquam et aperiam cum molestiae quo minima.</div>
+              </div>
+            </div>
+          
+          </div>
+        </div> <!-- container-fluid -->
+
+        <hr>
+
+        <div class="container-fluid sec4">
+          <h1 class="s4-h1">Translate From Arabic To English</h1>
+          <p class="s4-p">Write and Translate <span class="s4-p-span">Press Here</span></p>
+
+           
+  <!-- Button to Open the Modal -->
+<button type="button" class="btn btn-info h1-btn1 s4-btn" data-toggle="modal" data-target="#myModal10">Copy</button>
+          <!-- The Modal -->
+<div class="modal" id="myModal10">
+  <div class="modal-dialog">
+    <div class="modal-content">
+
+   
+<form action="/action_page.php">
+  <div class="form-group">
+    <p>تم نسخ الرابط</p>
+  </div>
+  <button type="submit" class="btn btn-primary">OK</button>
+</form>
+
+        
+
+    </div>
+  </div>
+</div>
+
+<input class="s4-text" type="text" placeholder="translate" >
+
+
+
+        </div> <!-- container-fluid -->
+
+        <hr>
+
+        <div class="container-fluid sec5">
+          <h1 class="s4-h1">Translate From Arabic To French</h1>
+          <p class="s4-p">Write and Translate <span class="s4-p-span">Press Here</span></p>
+
+           
+          <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-info h1-btn1 s4-btn" data-toggle="modal" data-target="#myModal10">Copy</button>
+                  <!-- The Modal -->
+        <div class="modal" id="myModal10">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+           
+        <form action="/action_page.php">
+          <div class="form-group">
+            <p>تم نسخ الرابط</p>
+          </div>
+          <button type="submit" class="btn btn-primary">OK</button>
+        </form>
+        
+                
+        
+            </div>
+          </div>
+        </div>
+        
+        <input class="s4-text" type="text" placeholder="translate" >
+        </div> <!-- container-fluid -->
+
+        <hr>
+
+        <div class="container-fluid sec6">
+          <h1 class="s4-h1">Translate From Arabic To German</h1>
+          <p class="s4-p">Write and Translate <span class="s4-p-span">Press Here</span></p>
+
+           
+          <!-- Button to Open the Modal -->
+        <button type="button" class="btn btn-info h1-btn1 s4-btn" data-toggle="modal" data-target="#myModal10">Copy</button>
+                  <!-- The Modal -->
+        <div class="modal" id="myModal10">
+          <div class="modal-dialog">
+            <div class="modal-content">
+        
+           
+        <form action="/action_page.php">
+          <div class="form-group">
+            <p>تم نسخ الرابط</p>
+          </div>
+          <button type="submit" class="btn btn-primary">OK</button>
+        </form>
+        
+                
+        
+            </div>
+          </div>
+        </div>
+        
+        <input class="s4-text" type="text" placeholder="translate" >
+        </div> <!-- container-fluid -->
+
+        <hr>
+
+        <!-- /////////////////////////////////////////////////////////////////// -->
+
+        <div class="section7">
+          <div class="s7">
+
+          </div>
+        </div>
+
+        <!-- ///////////////////////////////////////////////////////////////////////////////////////  -->
+
+        <div class="container-fluid sec8">
+          <h1 class="s8-h2">Populer destinations in Egypt</h1>
+
+          <div class="container sec8-div1 row">
+            <div class="car1 col-xl-4 col-12">
+            <div class="cardA card-after" style="width:350px">
+              <img class="card-img-top" src="Images/images/cairo/img3.jpg" alt="Card image" width="325" height="350px">
+              <div class="card-body">
+                <h4 class="card-title s8-h1">CAIRO</h4>
+                <p class="card-text s8-text1">Capital of Egypt</p>
+                <a href="#" class="btn btn-info s8-b1">Know More</a>
+              </div>
+            </div>
+          </div>
+          <div class="car2 col-xl-4 col-12">
+            <div class="cardA card2 card-after" style="width:350px">
+              <img class="card-img-top" src="Images/images/alex/IMG-20230227-WA0035.jpg" alt="Card image" width="325" height="350px">
+              <div class="card-body">
+                <h4 class="card-title s8-h1">ALEXANDRIA</h4>
+                <p class="card-text s8-text1">The bride of the Middetrian</p>
+                <a href="#" class="btn btn-info s8-b1">Know More</a>
+              </div>
+            </div>
+          </div>
+            <div class="car3 col-xl-4 col-12">
+            <div class="cardA card-after" style="width:350px">
+              <img class="card-img-top" src="Images/images/luxur/img5.jpg" alt="Card image" width="325" height="350px">
+              <div class="card-body">
+                <h4 class="card-title s8-h1">LUXOR</h4>
+                <p class="card-text s8-text1">The capital of the Ancient Kingdom</p>
+                <a href="#" class="btn btn-info s8-b1">Know More</a>
+              </div>
+            </div>
+          </div>
+          </div> <!-- container -->
+
+          <div class="container sec8-div1 d2 row">
+            <div class="car4 col-xl-4 col-12">
+            <div class="cardA card-after" style="width:350px">
+              <img class="card-img-top" src="Images/images/aswan/img10.jpg" alt="Card image" width="325" height="350px">
+              <div class="card-body">
+                <h4 class="card-title s8-h1">Aswan</h4>
+                <p class="card-text s8-text1">Nubian City In The South Of Egypt</p>
+                <a href="#" class="btn btn-info s8-b1">Know More</a>
+              </div>
+            </div>
+          </div>
+
+            <div class="car5 col-xl-4 col-12">
+            <div class="cardA card2 card-after" style="width:350px">
+              <img class="card-img-top" src="Images/images/new cairo/IMG-20230227-WA0047.jpg" alt="Card image" width="325" height="350px">
+              <div class="card-body">
+                <h4 class="card-title s8-h1">NEW CAPITAL</h4>
+                <p class="card-text s8-text1">The New Administrative Capital</p>
+                <a href="#" class="btn btn-info s8-b1">Know More</a>
+              </div>
+            </div>
+          </div>
+            
+            <div class="car6 col-xl-4 col-12">
+            <div class="cardA card-after" style="width:350px">
+              <img class="card-img-top" src="Images/images/sharm/img2.jpg" alt="Card image" width="325" height="350px">
+              <div class="card-body">
+                <h4 class="card-title s8-h1">SHARM ELSHEIKH</h4>
+                <p class="card-text s8-text1">Beautiful City In Egypt</p>
+                <a href="#" class="btn btn-info s8-b1">Know More</a>
+              </div>
+            </div>
+          </div>
+          </div> <!-- container -->
+
+          <div class="container sec8-div1 d2 d3 row">
+            <div class="car7 col-xl-6 col-12">
+            <div class="cardA c1 card-after" style="width:350px">
+              <img class="card-img-top" src="Images/images/siwa/img1.jpg" alt="Card image" width="325" height="350px">
+              <div class="card-body">
+                <h4 class="card-title s8-h1">SIWA</h4>
+                <p class="card-text s8-text1">Sunsit Osais</p>
+                <a href="#" class="btn btn-info s8-b1 d3-btn">Know More</a>
+              </div>
+            </div>
+          </div>
+
+
+            <div class="car8 col-xl-6 col-12">
+            <div class="cardA card2 c2 card-after" style="width:350px">
+              <img class="card-img-top" src="Images/images/Hurghada/zyanya-OMwEkftvQKs-unsplash.jpg" alt="Card image" width="325" height="350px">
+              <div class="card-body">
+                <h4 class="card-title s8-h1">HURGHADA</h4>
+                <p class="card-text s8-text1">City On The Red Sea</p>
+                <a href="#" class="btn btn-info s8-b1 d3-btn">Know More</a>
+              </div>
+            </div>
+          </div>
+          </div> <!-- container -->
+        </div> <!-- container-fluid sec8" -->
+
+                <!-- /////////////////////////////////////////////////////////////////// -->
+
+                <div class="section9">
+                  <div class="s9">
+        
+                  </div>
+                </div>
+        
+                <!-- ///////////////////////////////////////////////////////////////////////////////////////  -->
+
+                <div class="container-fluid sec10">
+                  <h1 class="s10-h">THANKS FOR</h1>
+                  <div class="container s10 row">
+                      <div class="s10-div1 col-xl-4 col-12">
+                          <div class="card card10" style="width:350px">
+                            <img class="card-img-top overlay" src="Images/images/trainer-1.jpg" alt="Card image">
+                            <div class="card-img-overlay">
+                              <h2 class="s10-div1-h2">All thanks and appreciation</h2>
+                              <div class="s10-div1-i"><i class="far fa-clock"></i></div>
+                              <p class="s10-div1-p1">October 15, 2022</p>
+                              <img class="s10-div1-img1" src="Images/images/trainer-1.jpg" alt="no photo" width="70px" height="70px">
+                              <p class="s10-div1-p2">Eng John</p>
+                              <p class="s10-div1-p3">Director of UI/UX</p>
+                            </div>
+                          </div>
+                      </div> <!-- s10-div1 -->
+
+                      <div class="s10-div1 s10-div2 col-xl-4 col-12">
+                        <div class="card card10" style="width:350px">
+                          <img class="card-img-top overlay" src="Images/WhatsApp Image 2023-06-14 at 3.26.46 PM.jpeg" alt="Card image" height="350px">
+                          <div class="card-img-overlay">
+                            <h2 class="s10-div1-h2">All thanks and appreciation</h2>
+                            <div class="s10-div1-i"><i class="far fa-clock"></i></div>
+                            <p class="s10-div1-p1">October 15, 2022</p>
+                            <img class="s10-div1-img1" src="Images/WhatsApp Image 2023-06-14 at 3.26.46 PM.jpeg" alt="no photo" width="70px" height="70px">
+                            <p class="s10-div1-p2">Eng Ali Raed</p>
+                            <p class="s10-div1-p3">Director of web developments</p>
+                          </div>
+                        </div>
+                    </div> <!-- s10-div1 -->
+
+                    <div class="s10-div1 col-xl-4 col-12">
+                      <div class="card card10" style="width:350px">
+                        <img class="card-img-top overlay" src="Images/images/trainer-3.jpg" alt="Card image" height="350px">
+                        <div class="card-img-overlay">
+                          <h2 class="s10-div1-h2">All thanks and appreciation</h2>
+                          <div class="s10-div1-i"><i class="far fa-clock"></i></div>
+                          <p class="s10-div1-p1">October 15, 2022</p>
+                          <img class="s10-div1-img1" src="Images/images/trainer-3.jpg" alt="no photo" width="70px" height="70px">
+                          <p class="s10-div1-p2">Eng Marcos</p>
+                          <p class="s10-div1-p3">Director of UI/UX</p>
+                        </div>
+                      </div>
+                  </div> <!-- s10-div1 -->
+                  </div>  <!-- container s10 -->
+                </div> <!-- container-fluid sec10" -->
+
+                <!-- //////////////////////////////////////////////////////////////////// -->
+                <hr>
+                <h2 class="s11-h">EGYPT NEWS</h2>
+
+                <div class="container sec11 row">
+                  <div class="s11-car1 col-xl-12 col-12">
+                  <div class="container s11-div1">
+                    <img src="Images/images/galalh/IMG-20230227-WA0040.jpg" class="s11-div1-img">
+                    <div class="cont1">
+                      <h2 class="s11-div1-h1">Podcast Title</h2>
+                    <div class="s11-div1-i1"><i class="fas fa-users"></i></div>
+                    <p class="s11-div1-p1">Mon, May 25th 2020</p>
+                    <div class="progress s11-div1-bar1">
+                      <div class="progress-bar" style="width:100%"></div>
+                    </div>
+                    <p class="s11-div1-p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, voluptatem deleniti? Tempore sint voluptatibus eos hic similique consectetur, amet explicabo a eaque assumenda iure vel, at quis quas facilis corrupti!</p>
+                    </div>
+                    <div class="s11-div1-btn1">
+                      <button class="s11-div1-b1"><i class="fas fa-tag"></i> Podcast</button>
+                      <button class="s11-div1-b2"><i class="far fa-clock"></i> 55 mins</button>
+                      <button class="s11-div1-b3"><i class="fas fa-play"></i> Play Episode</button>
+                    </div>
+                  </div> <!-- container s11-div1 -->
+                </div>
+
+                <div class="s11-car2 col-xl-12 col-12">  
+                <div class="container s11-div1 s11-div3">
+                    <img src="Images/images/luxur/img2.jpg" class="s11-div1-img3 A7A">
+                    <div class="cont3">
+                      <h2 class="s11-div1-h2">Podcast Title</h2>
+                      <div class="s11-div1-i2"><i class="fas fa-users"></i></div>
+                      <p class="s11-div1-p1-2">Mon, May 25th 2020</p>
+                      <div class="progress s11-div1-bar2">
+                        <div class="progress-bar bg-danger" style="width:100%"></div>
+                      </div>
+                      <p class="s11-div1-p2-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, voluptatem deleniti? Tempore sint voluptatibus eos hic similique consectetur, amet explicabo a eaque assumenda iure vel, at quis quas facilis corrupti!</p>
+                    </div>
+                    <div class="s11-div1-btn2">
+                      <button class="s11-div1-b1-2"><i class="fas fa-tag"></i> Podcast</button>
+                      <button class="s11-div1-b2-2"><i class="far fa-clock"></i> 55 mins</button>
+                      <button class="s11-div1-b3-2"><i class="fas fa-play"></i> Play Episode</button>
+                    </div>
+                  </div> <!-- container s11-div1 -->
+                </div>
+
+                  <div class="s11-car3 col-xl-12 col-12">
+                  <div class="container s11-div1 s11-div2">
+                    <img src="Images/images/luxur/img2.jpg" class="s11-div1-img2">
+                    <div class="cont2">
+                      <h2 class="s11-div1-h1">Podcast Title</h2>
+                    <div class="s11-div1-i1"><i class="fas fa-users"></i></div>
+                    <p class="s11-div1-p1">Mon, May 25th 2020</p>
+                    <div class="progress s11-div1-bar1">
+                      <div class="progress-bar bg-warning" style="width:100%"></div>
+                    </div>
+                    <p class="s11-div1-p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, voluptatem deleniti? Tempore sint voluptatibus eos hic similique consectetur, amet explicabo a eaque assumenda iure vel, at quis quas facilis corrupti!</p>
+                    </div>
+                    <div class="s11-div1-btn1">
+                      <button class="s11-div1-b1"><i class="fas fa-tag"></i> Podcast</button>
+                      <button class="s11-div1-b2"><i class="far fa-clock"></i> 55 mins</button>
+                      <button class="s11-div1-b33"><i class="fas fa-play"></i> Play Episode</button>
+                    </div>
+                  </div> <!-- container s11-div1 -->
+                </div>
+
+                  <div class="s11-car4 col-xl-12 col-12">
+                  <div class="container s11-div1 s11-div3">
+                    <img src="Images/images/luxur/img2.jpg" class="s11-div1-img4">
+                    <div class="cont4">
+                      <h2 class="s11-div1-h2">Podcast Title</h2>
+                    <div class="s11-div1-i2"><i class="fas fa-users"></i></div>
+                    <p class="s11-div1-p1-2">Mon, May 25th 2020</p>
+                    <div class="progress s11-div1-bar2">
+                      <div class="progress-bar bg-success" style="width:100%"></div>
+                    </div>
+                    <p class="s11-div1-p2-2">Lorem ipsum dolor, sit amet consectetur adipisicing elit. At, voluptatem deleniti? Tempore sint voluptatibus eos hic similique consectetur, amet explicabo a eaque assumenda iure vel, at quis quas facilis corrupti!</p>
+                    </div>
+                    <div class="s11-div1-btn2">
+                      <button class="s11-div1-b1-2"><i class="fas fa-tag"></i> Podcast</button>
+                      <button class="s11-div1-b2-2"><i class="far fa-clock"></i> 55 mins</button>
+                      <button class="s11-div1-b333-2"><i class="fas fa-play"></i> Play Episode</button>
+                    </div>
+                  </div> <!-- container s11-div1 -->
+                </div>
+                </div> <!-- container sec11 -->
+
+                <!-- /////////////////////////////////////////////////////////////////////////// -->
+              
+                <h2 class="s11-h">JOIN US</h2>
+
+                <div class="container-fluid sec12 row">
+                  <div class="container s12 col-xl-3 col-12">
+                    <div class="s12-div1">
+                      <h2 class="s12-div1-h1">Subscribe Now</h2>
+                      <a href="#"><img src="Images/images/twetter.jpg" alt="no photo" class="s12-div1-img1"></a>
+                      <p class="s12-div1-p1">Go to link</p>
+                    </div>
+                  </div> <!-- container s12 -->
+
+                  <div class="container s12 col-xl-3 col-12">
+                    <div class="s12-div1">
+                      <h2 class="s12-div1-h1">Follow</h2>
+                      <a href="#"><img src="Images/images/whats.jpg" alt="no photo" class="s12-div1-img1"></a>
+                      <p class="s12-div1-p1">Go to link</p>
+                    </div>
+                  </div> <!-- container s12 -->
+
+                  <div class="container s12 col-xl-3 col-12">
+                    <div class="s12-div1">
+                      <h2 class="s12-div1-h1">Like the page</h2>
+                      <a href="#"><img src="Images/images/in.jpg" alt="no photo" class="s12-div1-img1"></a>
+                      <p class="s12-div1-p1">Go to link</p>
+                    </div>
+                  </div> <!-- container s12 -->
+
+                  <div class="container s12 col-xl-3 col-12">
+                    <div class="s12-div1">
+                      <h2 class="s12-div1-h1">Whatch Videos</h2>
+                      <a href="#"><img src="Images/images/insta.jpg" alt="no photo" class="s12-div1-img1"></a>
+                      <p class="s12-div1-p1">Go to link</p>
+                    </div>
+                  </div> <!-- container s12 -->
+                </div> <!-- container-fluid sec12 -->
+
+                <!-- ///////////////////////////////////////////////////////////////////// -->
+
+                <div class="container-fluid sec13 row">
+                  <div class="s13-div1 col-xl-4 col-12">
+                    <div class="d1-s13">                
+                     <img class="s13-div1-img" src="Images/images/logo1.jpg" alt="no photo" width="80px" height="80px">
+                     <p class="s13-div1-p1">Good Company</p>
+                    </div>
+                    <div class="content-div1">
+                      <p class="s13-div1-p2">Tel: 00000000000</p>
+                      <p class="s13-div1-p3">Address: Egypt</p>
+                      <p class="s13-div1-p4">Fax: 0000000</p>
+                    </div>
+                  </div> <!-- s13-div1 -->
+
+                  <div class="s13-div2 col-xl-4 col-12">
+                  <div class="d2-s13">
+                    <img class="s13-div1-img2" src="Images/images/logo1.jpg" alt="no photo" width="80px" height="80px">
+                    <p class="s13-div1-p1-2">Important links</p>
+                  </div>
+                  <div class="content-div2">
+                    <p class="s13-div1-p2-2">Visit Us</p>
+                    <p class="s13-div1-p3-2">Take a look</p>
+                    <p class="s13-div1-p4-2">Your health is more importent</p>
+                  </div>
+                  </div> <!-- s13-div1 -->
+
+                  
+                  <div class="s13-div3 col-xl-4 col-12">
+                    <div class="d3-s13">
+                      <img class="s13-div1-img3" src="Images/images/logo1.jpg" alt="no photo" width="80px" height="80px">
+                      <p class="s13-div1-p1-3">Vision</p>
+                    </div>
+                    <div class="content-div3">
+                      <p class="s13-div1-p2-3">Services for all</p>
+                      <p class="s13-div1-p3-3">Provide best services</p>
+                      <p class="s13-div1-p4-3">You will be better than before</p>
+                    </div>
+                  </div> <!-- s13-div1 -->
+
+                  <div class="cp col-xl-12 col-12">
+                  <h2>COPYRIGHT @ ALIRAED SAYED, GOOD COMPANY, ALL RIGHTS</h2>
+                </div>
+
+                </div> <!-- container-fluid sec13 -->
+
+
+
+              
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <script src="js/cdnjs.cloudflare.com_ajax_libs_popper.js_1.11.0_umd_popper.min.js"></script>
+        <script src="js/code.jquery.com_jquery-3.7.0.min.js"></script>
+        <script src="js/bootstrap.js"></script>
+    </body>
+</html>
